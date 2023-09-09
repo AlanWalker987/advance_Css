@@ -1,0 +1,21 @@
+.bigBox{
+    margin: 200px 370px;
+}
+
+.box {
+    background-color: hsl(200, 70%, 30%);
+    width: 250px;
+    height: 250px;
+    color: white;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.box{
+    transform: rotate(0turn);
+    transform: scale(1);
+    transform: translate(30px, 40px);
+    transform : skew(20deg);
+}
